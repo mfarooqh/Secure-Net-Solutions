@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1d76eb; /* Adjust colors as needed */
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333; /* Adjust link colors as needed */
+  }
+  
+  .right-options button, .right-options select {
+    margin-left: 10px;
+  }
+  
