@@ -8,11 +8,11 @@ const Footer = () => {
           <div className="mb-4 md:mb-0">
             <h2 className="text-2xl font-bold mb-2">CONNECT WITH US</h2>
             <form className="flex flex-col">
-              <input type="text" placeholder="First Name" className="mb-2 p-2 rounded" />
-              <input type="text" placeholder="Last Name" className="mb-2 p-2 rounded" />
-              <input type="email" placeholder="Email Address" className="mb-2 p-2 rounded" />
-              <input type="text" placeholder="Organization Name" className="mb-2 p-2 rounded" />
-              <input type="tel" placeholder="Telephone Number" className="mb-2 p-2 rounded" />
+              <input type="text" placeholder="First Name" className="mb-2 p-2 rounded text-black" />
+              <input type="text" placeholder="Last Name" className="mb-2 p-2 rounded text-black" />
+              <input type="email" placeholder="Email Address" className="mb-2 p-2 rounded text-black" />
+              <input type="text" placeholder="Organization Name" className="mb-2 p-2 rounded text-black" />
+              <input type="tel" placeholder="Telephone Number" className="mb-2 p-2 rounded text-black" />
               <textarea placeholder="Message" className="mb-2 p-2 rounded"></textarea>
               <button type="submit" className="bg-blue-400 hover:bg-blue-600 text-white p-2 rounded">SUBMIT</button>
             </form>
