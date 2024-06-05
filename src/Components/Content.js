@@ -13,16 +13,28 @@ function HomePage() {
 
             <div className="p-8 bg-blue-700 text-white grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="service">
-                    <h2 className="text-2xl font-bold">Cloud Integration</h2>
-                    <p>Seamlessly integrate powerful cloud services to enhance your workflow.</p>
+                    <h2 className="text-2xl font-bold">Website Design</h2>
+                    <p>Designing visually stunning, user-centric websites to enhance your online presence.</p>
                 </div>
                 <div className="service">
-                    <h2 className="text-2xl font-bold">Cybersecurity</h2>
-                    <p>Advanced protection measures to safeguard your digital assets.</p>
+                    <h2 className="text-2xl font-bold">AI Compliance</h2>
+                    <p>Implementing AI ethically and legally, ensuring adherence to regulatory standards.</p>
                 </div>
                 <div className="service">
-                    <h2 className="text-2xl font-bold">Data Analytics</h2>
-                    <p>Transform your data into actionable insights with our comprehensive analytics tools.</p>
+                    <h2 className="text-2xl font-bold">Cloud Compliance</h2>
+                    <p>Maintaining robust regulatory compliance within your cloud infrastructure.</p>
+                </div>
+                <div className="service">
+                <h2 className="text-2xl font-bold">Service Monitoring</h2>
+                    <p>Real-time service monitoring to ensure optimal performance and reliability.</p>
+                </div>
+                <div className="service">
+                <h2 className="text-2xl font-bold">Cloud Migration</h2>
+                    <p>Effortlessly migrate to the cloud with minimal disruption and maximum efficiency.</p>
+                </div>
+                <div className="service">
+                <h2 className="text-2xl font-bold">Cloud Infrastructure Planning and Setup</h2>
+                    <p>Strategically plan and set up your cloud infrastructure for optimal performance.</p>
                 </div>
             </div>
 

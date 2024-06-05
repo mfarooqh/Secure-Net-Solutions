@@ -4,7 +4,7 @@ import logo from "../Static/Picture1.jpg"
 
 function Header() {
     return (
-        <header className="bg-blue-100 text-center py-4 w-screen"> 
+        <header className="bg-blue-300 text-center py-4 w-screen"> 
             {/* Add background color, text alignment, and padding to the header */}
             <a href='#' className='flex justify-center'>
                 <img src={logo}></img>
