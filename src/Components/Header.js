@@ -10,15 +10,15 @@ function Header() {
                 <img src={logo}></img>
             </a>
             <nav>
-                <ul className="flex justify-between space-x-4 mt-6 p-4">
+                <ul className="flex justify-between space-x-4 mt-6 p-2">
                     <div className="flex gap-4"> 
                         {/* Display flex and centering nav items, also adds spacing */}
-                        <li><a href="#Home" className="text-blue-700 hover:text-blue-900">Home</a></li>
-                        <li><a href="#About" className="text-blue-700 hover:text-blue-900">About</a></li>
-                        <li><a href="#Services" className="text-blue-700 hover:text-blue-900">Services</a></li>
+                        <li><a href="#Home" className="bg-blue-700 hover:bg-blue-600 text-white p-2 rounded border border-blue-500">Home</a></li>
+                        <li><a href="#About" className="bg-blue-700 hover:bg-blue-600 text-white p-2 rounded border border-blue-500">About</a></li>
+                        <li><a href="#Services" className="bg-blue-700 hover:bg-blue-600 text-white p-2 rounded border border-blue-500">Services</a></li>
                     </div>
                     <div>
-                        <li><a href="#Signin" className="justify-left text-blue-700 hover:text-blue-900">Sign in</a></li>
+                        <li><a href="https://v4qfx3-5173.csb.app/" className="justify-left bg-blue-700 hover:bg-blue-600 text-white p-2 rounded border border-blue-500">Sign in</a></li>
                     </div>
                 </ul>
             </nav>
